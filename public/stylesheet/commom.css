@@ -1,6 +1,8 @@
 .header{
     background-color: rgb(35, 37, 37) !important;
     color: #F6F6F6 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .main_header{
     color: #F6F6F6 !important;
@@ -15,6 +17,8 @@
 .header1{
     color: #F6F6F6 !important;
     background-color: rgb(141, 43, 199) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .upload{
     background-color: #A69DDB !important;
@@ -115,4 +119,5 @@ button {
 }
 .page_bg{
     background: url(../img/light_back.jpg) no-repeat;
+    background-size: 100% 100%;
 }

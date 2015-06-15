@@ -47,3 +47,7 @@ $('#google').click(function(){
 }).mouseout(function () {
     $(this).css({'width': '40px' });
 });
+
+var docHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
+
+console.log(docHeight);
