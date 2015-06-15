@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.4.min.css">
+    <link rel="stylesheet" href="stylesheet/commom.css">
+
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <div data-role="header" class="main_header">
+        <img src="img/2072117.png" alt="logo" style="  width: 50px;  padding-left: 40px;">
+        <span style="color: black;font-size: x-large;  font-family: cursive;  vertical-align: super;">Demo</span>
+        <!--<div data-role="fieldcontain">-->
+            <!--<label for="search-2" style="color: black">Search Input:</label>-->
+            <!--<input type="search" name="search-2" id="search-2" value="" />-->
+        <!--</div>-->
+    </div>
+    <div class="demo" style="  background-color: white;">
+        <div class="container">
+            <div style="display: inline-block;">
+                <img src="img/example-slide-4.jpg"/>
+            </div>
+            <div>
+                <img src="img/example-slide-3.jpg"/>
+            </div>
+            <div>
+                <img src="img/example-slide-2.jpg"/>
+            </div>
+            <div>
+                <img src="img/example-slide-1.jpg"/>
+            </div>
+        </div>
+        <div class="watch_cricket">
+        <button class="button_click" onclick="cricket()">Watch Live Cricket Score</button>
+        <div id="matches"></div>
+        </div>
+        <div class="attr">
+            <img src="img/pVbuU.png" id="upload" style="border-style: none; width: 40px;  display: block;">
+            <img src="img/google-plus-icon-transparent-png.png" id="google" style="border-style: none; width: 40px;  margin-top: 10px; display: block;" >
+        </div>
+        <!--<button class="next">Next</button>
+        <button class="prev">Previous</button>-->
+    </div>
+
+
+</div>
+
+<script type='text/javascript' src='js/javascripts/jquery-1.11.1.min.js'></script>
+<script type="text/javascript" src="js/javascripts/jquery.mobile-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/javascripts/cricket_update.js"></script>
+<script type="text/javascript" src="js/javascripts/comman.js"></script>
+<script type="text/javascript" src="js/javascripts/google.js"></script>
+<script type="text/javascript" src="js/javascripts/upload.js"></script>
+<script type="text/javascript" src="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22http%3A%2F%2Fsynd.cricbuzz.com%2Fj2me%2F1.0%2Flivematches.xml%22&format=json&callback=getScore"></script>
+</body>
+</html>
+

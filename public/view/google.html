@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header" class="header1">
+        <div onclick="back()">
+            <img class="header_back" src="../css/images/icons-png/back-white.png" />
+            <span class="back_label">Back</span>
+        </div>
+        <h1 style="float: none">Login</h1>
+
+    </div>
+    <div class="change_font">
+        sing up
+    </div>
+    <div class="login">
+       First Name
+        <div>
+            <input type="text" id="f_name" />
+        </div>
+        Last Name
+        <div>
+            <input type="text" id="l_name"  />
+        </div>
+        Email Address
+        <div>
+            <input type="email" id="email" />
+        </div>
+        Password
+        <div>
+            <input type="password" id="password" />
+        </div>
+        Conform Password
+        <div>
+            <input type="password" id="conf_password" />
+        </div>
+        <a href="#myPopupDialog" onclick="submit()" style="width:97%" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline button_click">Submit</a>
+
+        <div data-role="popup" id="myPopupDialog">
+            <div data-role="main" class="ui-content">
+                <h2>Please log in with Google +</h2>
+                <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b ui-icon-back ui-btn-icon-left" data-rel="back">Go Back</a>
+            </div>
+        <div>
+        </div>
+            <p style="text-align: center">OR</p>
+            <button class="button_click"  onclick="loginViaGoogle();">Login With Google +</button>
+    </div>
+    <div style="  margin-bottom: 30px;">
+    <p style="text-align: center">OR</p>
+    <button class="button_click"  onclick="loginViaGoogle();">Login With Google +</button>
+    </div>
+</div>
+</body>
+</html>

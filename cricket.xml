@@ -1,0 +1,49 @@
+<mchdata NMchs="7">
+    <links fUrlBase="http://synd.cricbuzz.com/j2me/1.0/flags/team_"/>
+    <match id="2" type="TEST" srs="India tour of Bangladesh, 2015" mchDesc="BAN vs IND" mnum="Only Test" vcity="Fatullah" vcountry="Bangladesh" grnd="Khan Shaheb Osman Ali Stadium" inngCnt="1" datapath="http://synd.cricbuzz.com/j2me/1.0/match/2015/2015_BAN_IND/BAN_IND_JUN10_JUN14/">
+        <state mchState="stump" status="Day 2: Stumps" TW="Ind" decisn="Batting" addnStatus="Day 2: Stumps" splStatus=""></state>
+        <Tm id="6" Name="Ban" sName="BAN" flag="1"/>
+        <Tm id="2" Name="Ind" sName="IND" flag="1"/>
+        <Tme Dt="Jun 10 2015" stTme="04:00" enddt="Jun 14 2015"/>
+        <mscr>
+            <inngsdetail noofovers="0" rrr="0" crr="4.27" cprtshp="239(336)"/>
+            <btTm id="2" sName="IND">
+                <Inngs desc="1st Inns" r="239" Decl="0" FollowOn="0" ovrs="56" wkts="0"/>
+            </btTm>
+            <blgTm id="6" sName="BAN"></blgTm>
+        </mscr>
+    </match>
+    <match id="3" type="TEST" srs="Australia tour of West Indies, 2015" mchDesc="WI vs AUS" mnum="2nd Test" vcity="Kingston, Jamaica" vcountry="West Indies" grnd="Sabina Park" inngCnt="0" datapath="http://synd.cricbuzz.com/j2me/1.0/match/2015/2015_WI_AUS/WI_AUS_JUN11_JUN15/">
+        <state mchState="preview" status="Starts on Jun 11 at 15:00 GMT" TW="" decisn="" addnStatus="" splStatus=""></state>
+        <Tm id="10" Name="WI" sName="WI" flag="1"/>
+        <Tm id="4" Name="Aus" sName="AUS" flag="1"/>
+        <Tme Dt="Jun 11 2015" stTme="15:00" enddt="Jun 15 2015"/>
+    </match>
+    <match id="1" type="ODI" srs="New Zealand tour of England, 2015" mchDesc="ENG vs NZ" mnum="1st ODI" vcity="Birmingham" vcountry="England" grnd="Edgbaston" inngCnt="2" datapath="http://synd.cricbuzz.com/j2me/1.0/match/2015/2015_ENG_NZ/ENG_NZ_JUN09/">
+        <state mchState="complete" status="Eng won by 210 runs" TW="NZ" decisn="Fielding" addnStatus="" splStatus=""></state>
+        <Tm id="9" Name="Eng" sName="ENG" flag="1"/>
+        <Tm id="13" Name="NZ" sName="NZ" flag="1"/>
+        <Tme Dt="Jun 09 2015" stTme="13:00" enddt="Jun 09 2015"/>
+        <mscr>
+            <inngsdetail noofovers="50" rrr="0" crr="6.35" cprtshp=""/>
+            <btTm id="13" sName="NZ">
+                <Inngs desc="Inns" r="198" Decl="0" FollowOn="0" ovrs="31.1" wkts="10"/>
+            </btTm>
+            <blgTm id="9" sName="ENG">
+                <Inngs desc="Inns" r="408" Decl="0" FollowOn="0" ovrs="50" wkts="9"/>
+            </blgTm>
+        </mscr>
+    </match>
+    <match id="14304" type="TEST" srs="County Championship Division Two 2015" mchDesc="NOR vs ESS" mnum="County Div 2" inngCnt="4" datapath="http://synd.cricbuzz.com/j2me/1.0/match/2015/2015_COUNTY_DIV2/NOR_ESS_JUN07_JUN10/">
+        <state mchState="Result" status="Match drawn"></state>
+        <Tm id="142" Name="NOR" sName="NOR" flag="0"/>
+        <Tm id="152" Name="Ess" sName="ESS" flag="0"/>
+        <Tme Dt="Jun 07 2015" stTme="10:00" enddt="Jun 10 2015"/>
+    </match>
+    <match id="14301" type="TEST" srs="County Championship Division Two 2015" mchDesc="GLOUCS vs LANCS" mnum="County Div 2" inngCnt="4" datapath="http://synd.cricbuzz.com/j2me/1.0/match/2015/2015_COUNTY_DIV2/GLOUCS_LANCS_JUN07_JUN10/">
+        <state mchState="Result" status="Lancs won by 91 runs"></state>
+        <Tm id="151" Name="Gloucs" sName="GLOUCS" flag="0"/>
+        <Tm id="143" Name="Lancs" sName="LANCS" flag="0"/>
+        <Tme Dt="Jun 07 2015" stTme="10:00" enddt="Jun 10 2015"/>
+    </match>
+</mchdata>
