@@ -5,6 +5,12 @@
 .main_header{
     color: #F6F6F6 !important;
     padding: 10px;
+    border-style: dashed;
+    border-width:2px !important;
+    background-color: #FFFFFF !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .header1{
     color: #F6F6F6 !important;
@@ -106,4 +112,7 @@ button {
     /*width: 48px;*/
     z-index: 100020;
     background: 0 0;
+}
+.page_bg{
+    background: url(../img/light_back.jpg) no-repeat;
 }
